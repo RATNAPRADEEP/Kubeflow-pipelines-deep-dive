@@ -25,6 +25,33 @@ backend/src/apiserver/server/run_server.go
 8. Frontend later polls run status
 
 ---
+---
+
+## Internal Call Chain Breakdown
+
+Within CreateRun():
+
+1. Validate request payload
+2. Extract namespace from context
+3. Perform SubjectAccessReview (RBAC enforcement)
+4. Call ResourceManager.CreateRun()
+5. Persist run metadata via RunStore
+6. Trigger workflow submission through workflow client
+7. Return RunDetail response
+
+---
+
+## State Consistency Observation
+
+Run metadata is persisted before workflow submission.
+
+If workflow submission fails:
+- Run record may exist in DB
+- Workflow CR may not exist in Kubernetes
+- UI can show inconsistent state until reconciliation
+
+This indicates a potential improvement area:
+Atomic persistence + workflow submission transaction handling.
 
 ## Key Observations
 
