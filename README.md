@@ -123,6 +123,10 @@ Kubeflow Pipelines (KFP) enables defining and orchestrating ML workflows on Kube
 * ML Metadata (artifact tracking)
 * React Frontend (monitoring UI)
 
+### Detailed Analysis Documents
+
+- [Driver Workflow Submission](deep-dives/driver_workflow_submission.md)
+- [Run Server Request Flow](deep-dives/run_server_request_flow.md)
 ---
 
 ### 2. End-to-End Execution Flow
