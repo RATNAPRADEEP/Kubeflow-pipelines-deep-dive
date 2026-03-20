@@ -1,7 +1,12 @@
 # Kubeflow UI Error Analysis (Frontend)
 
 ## 🚀 Demo
-<img src="./demo.png" width="700"/>
+
+<p align="center">
+  <img src="./demo.png" width="700"/>
+</p>
+
+This demo shows automatic classification of Kubernetes pod failures (e.g., OOMKilled) with root cause and suggested fixes.
 
 ## 🚀 Overview
 This project improves the *Kubeflow Pipelines UI* by introducing a structured and visual classification of Kubernetes pod lifecycle failures.
