@@ -1,13 +1,11 @@
 # Kubeflow UI Error Analysis (Frontend)
 
+![Demo](./demo.png) 
+
 ## 🚀 Overview
+This project improves the *Kubeflow Pipelines UI* by introducing a structured and visual classification of Kubernetes pod lifecycle failures.
 
-This project improves the **Kubeflow Pipelines UI** by introducing a structured and visual classification of Kubernetes pod lifecycle failures.
-
-It helps users quickly understand **why pipeline runs fail** without manually inspecting logs.
-
----
-## 🔥 Demo
+It helps users quickly understand *why pipeline runs fail* without manually inspecting logs.
 
 A working prototype is implemented to classify Kubernetes pod failures.
 
