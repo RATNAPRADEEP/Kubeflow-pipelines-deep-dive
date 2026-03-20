@@ -8,6 +8,23 @@
 
 This demo shows automatic classification of Kubernetes pod failures (e.g., OOMKilled) with root cause and suggested fixes.
 
+## ⚙️ How it works
+
+1. Paste Kubernetes pod logs  
+2. Click *Analyze Error*  
+3. System detects failure type (e.g., OOMKilled, CrashLoopBackOff)  
+4. Extracts root cause  
+5. Suggests actionable fix  
+
+---
+
+## 🚀 Run Locally
+
+```bash
+npm install
+npm start
+Open: http://localhost:3000⁠
+
 ## 🚀 Overview
 This project improves the *Kubeflow Pipelines UI* by introducing a structured and visual classification of Kubernetes pod lifecycle failures.
 
