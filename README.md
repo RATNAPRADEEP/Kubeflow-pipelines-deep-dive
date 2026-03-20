@@ -14,8 +14,8 @@ A working prototype is implemented to classify Kubernetes pod failures.
 ### Example:
 
 Input(example logs):
-Container terminated with exit code 137 
-Reason: OOMKilled
+- Container terminated with exit code 137 
+- Reason: OOMKilled
 
 Output:
 - Type: ResourceLimitError  
