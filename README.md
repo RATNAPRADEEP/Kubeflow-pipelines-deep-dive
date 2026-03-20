@@ -24,8 +24,8 @@ This demo shows automatic classification of Kubernetes pod failures (e.g., OOMKi
 
 ```bash
 npm install
-npm start
-```⁠
+npm start```
+⁠
 
 
 ## 🚀 Overview
