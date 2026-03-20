@@ -8,6 +8,8 @@
 
 This demo shows automatic classification of Kubernetes pod failures (e.g., OOMKilled) with root cause and suggested fixes.
 
+---
+
 ## ⚙️ How it works
 
 1. Paste Kubernetes pod logs  
@@ -23,8 +25,6 @@ This demo shows automatic classification of Kubernetes pod failures (e.g., OOMKi
 ```bash
 npm install
 npm start
----
-Open: http://localhost:3000
 ⁠
 ---
 
