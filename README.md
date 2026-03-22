@@ -1,3 +1,5 @@
+📄 GSoC Proposal: [View Proposal](https://github.com/RATNAPRADEEP/Kubeflow-ui-error-analysis/blob/main/proposal/GSOC_2026_kubeflow_proposal.pdf)
+
 # Kubeflow UI Error Analysis (Frontend)
 
 ## 🚀 Demo
